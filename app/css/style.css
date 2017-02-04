@@ -1,0 +1,72 @@
+.humans {
+  background: #232323;
+  text-align: center;
+  padding: 0 15px;
+}
+
+.humans .items {
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.humans .items .item {
+  box-sizing: border-box;
+  margin-left: 15px;
+  margin-right: 15px;
+  word-wrap: break-word;
+  width: calc(25% - 30px);
+  background: #fff;
+  border-radius: 10px;
+  max-width: 560px;
+  margin: 20px auto;
+  padding: 10px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+}
+
+.humans .items .item img {
+  margin: 10px 0;
+  width: 90%;
+}
+
+.humans .items .item .subtitle {
+  color: #6cc372;
+  font-size: 24px;
+  margin: 10px;
+}
+
+.humans .items .item .job {
+  margin: auto 10px 10px 10px;
+}
+
+.humans .items .item .follow {
+  background: #6cc372;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+@media screen and (max-width: 960px) {
+  .humans .items {
+    -webkit-box-pack: center;
+    justify-content: center;
+  }
+
+  .humans .items .item {
+    width: calc(41.66666666666667% - 30px);
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .humans .items .item {
+    width: calc(83.33333333333334% - 30px);
+  }
+}

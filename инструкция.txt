@@ -1,0 +1,16 @@
+1.Створення структури каталогу
+	mkdir <назва проекту>
+	mkdir  desst  app  app/css  app/css/images  app/css/sprites  app/css/partial  app/css/vendor  app/js app/js/partial  app/template  app/template/include  app/img  app/fonts app/less   app/less/sprites  app/less/partial  app/less/vendor 
+
+Для налаштування проекту з нуля перейти за посиланням
+	http://webdesign-master.ru/blog/tools/2016-03-09-gulp-beginners.html
+	
+2.Налаштування нового проекту (якщо встановлено node.js, git, gulp, bower)
+
+	2.1 Скопіювати всі файли з папки my_temples в папку з проектом.
+	2.2 В терміналі виконати команду 
+						npm i
+	2.2 Завантажити бібліотеки jquery та magnific-popup
+						bower i jquery magnific-popup
+	2.3 Згенерувати файл smartgrid.less командою
+						gulp smartgrid
